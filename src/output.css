@@ -610,6 +610,9 @@
   .text-\[25\] {
     color: 25;
   }
+  .text-\[px\] {
+    color: px;
+  }
   .text-white {
     color: var(--color-white);
   }
