@@ -318,6 +318,9 @@
   .h-\[800px\] {
     height: 800px;
   }
+  .h-\[1160px\] {
+    height: 1160px;
+  }
   .h-\[1460px\] {
     height: 1460px;
   }
@@ -780,6 +783,16 @@
   .lg\:mt-12 {
     @media (width >= 64rem) {
       margin-top: calc(var(--spacing) * 12);
+    }
+  }
+  .lg\:mt-20 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 20);
+    }
+  }
+  .lg\:mt-27 {
+    @media (width >= 64rem) {
+      margin-top: calc(var(--spacing) * 27);
     }
   }
   .lg\:flex {
